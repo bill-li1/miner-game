@@ -1,0 +1,54 @@
+body {
+    background-color: #242f44;
+    color: white;
+    font-family: Arial;
+}
+
+header {
+    text-align: center;
+    margin-top: 5px;
+}
+
+h1 {
+    background-color: azure;
+    font-size: 60px;
+    text-align: center;
+    color: #8c6b48;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 32px;
+    color: lightcoral;
+    margin-top: 20px;
+}
+.cartoonminer {
+    margin-top: 20px;
+    width: 300px;
+    height: 350px;
+}
+.pixelminer {
+    display: block;
+    margin-left: auto;
+}
+.row {
+    display: flex;
+}
+.column {
+    flex: 50%;
+    padding: 5px;
+}
+p, li {
+    font-size: 18px;
+    color: seashell;
+    padding: 3px;
+}
+.gamelink {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+}
+input {
+    font-size: 20px;
+}

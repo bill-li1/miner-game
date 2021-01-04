@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <title> Virtual Miner</title>
+</head>
+
+<body>
+    <div>
+        <h1 class="title">Virtual Miner</h1>
+        <div class="row">
+            <div class="column">
+                <img class="pixelminer"
+                    src="https://github.com/DxChainNetwork/virtualminer/blob/master/Images/pixelminer.png?raw=true"
+                    alt="A pixelated miner">
+            </div>
+            <div class="column">
+                <img class="cartoonminer"
+                    src="https://github.com/DxChainNetwork/virtualminer/blob/master/Images/19184827.png?raw=true"
+                    alt="A cartoon ether miner">
+            </div>
+        </div>
+    </div>
+    <div>
+        <h2> What is Virtual Miner?</h2>
+        <p class="description">Virtual Miner is an Ethereum network betting game that allows you to earn Ethers. Through
+            purchasing and upgrading miners, you can enter them in betting pools to win prizes!</p>
+    </div>
+    <div class="howtoplay">
+        <h2> How to Play </h2>
+        <p> As an owner, you have to first purchase miners if you want to play. All miners start off with 32MB of
+            storage, but can be upgraded in increments of 32MB up to 1TB. The disk space (capacity) of your miner
+            determines how powerful it is; miners of greater power have higher chances of winning prizes. Once you have
+            purchased at least 1 miner, you can begin entering your miner(s) into pools to win prizes. When a pool
+            reaches its maximum capacity, miners in the pool will be randomly
+            selected as winners:</p>
+        <ul>
+            <li>There will be one winner who wins 50% of the pooled ether.</li>
+            <li>There will be three winners who win 10% of the pooled ether.</li>
+            <li> There will be 20 winners who will win 1% of the pooled ether.</li>
+        </ul>
+        <p>As mentioned earlier, there are 3 pool sizes. Smaller pool sizes will have smaller prize pools, but will
+            ensure a higher chance if being selected. On the other hand, larger pools have larger prize pools, but the
+            probability of being selected is reduced. The pools are as followed:</p>
+        <ul>
+            <li>Small Pool <em>(activates when 100 miners enter)</em></li>
+            <li>Medium Pool <em>(activates when 250 miners enter)</em></li>
+            <li>Large Pool <em>(activates when 1000 miners enter)</em></li>
+        </ul>
+        <p>Chances of winning are based on the number and quality of miners you place into the pool as well as the size
+            of the pool.</p>
+    </div>
+    <h2> How to Win </h2>
+    <p> There are two methods to increasing your chances at winning the prize.</p>
+    <ol>
+        <li>Upgrading your Miners</li>
+        <p>By upgrading your miner, you increase its disk space, which in turn, increases its chance of winning.
+            However, upgrading your miners will also increase the costs of deploying them into a pool. </p>
+        <li>Purchasing Additional Miners</li>
+        <p>By purchasing additional miners, you can place more miners into the pool. Remember that you are rewarded when
+            any one of your miners are selected as winners. Finally, there is a cap on the amount of miners that you can
+            place in a pool:</p>
+        <ul>
+            <li> 20 miners for the small pool</li>
+            <li> 50 miners for the medium pool</li>
+            <li> 200 miners for the large pool</li>
+        </ul>
+        <p style="font-size: 20px"><em>It is more expensive to put 2 32MB miners than 1 64MB miner into a pool. it is
+                beneficial to upgrade your miners.</em></p>
+    </ol>
+    <h2>Costs</h2>
+    <p>There are three actions in the game that requires ethers.</p>
+    <ol>
+        <li>Purchasing a new miner (9,656,297,296,172,600 Wei)</li>
+        <li>Upgrading your miner (adding more storage makes it stronger) (10000000000000 Wei)</li>
+        <li>Deploying your miner into the pool. (4,828,148,648,086,300 + 100000000000 * miner size)</li>
+    </ol>
+    <p>The cost of deploying your miner into the pool will depend on the size of the miner. The more powerful the miner,
+        the more it will cost. Deploying two 32MB miners will provide the same chance of winning as deploying a single
+        64MB miner, but upgrading miners is much cheaper than purchasing new ones, making it far more beneficial to
+        upgrade miners instead of purchasing new ones. Furthermore, the 20% miner cap also provides incentive to upgrade
+        your miners, as two hundred 1TB miners is much better than two hundred 32MB miners. </p>
+    <button class="gamelink"><a href="./game.html" target="_self">Click here if you're ready to play virtual
+            miner!</a></button>
+</body>
+
+</html>
